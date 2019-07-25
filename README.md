@@ -72,7 +72,9 @@ e.g. from this repository: `export PYTHONPATH=$(pwd)`
 train:
 
 (1) Train the base model:
+
 `python -u object_detector_retinanet/keras_retinanet/bin/train.py csv`
+
 `python -u object_detector_retinanet/keras_retinanet/bin/train.py --gpu 0,1,2,3 csv`
 
 (2) Train the IoU layer:
